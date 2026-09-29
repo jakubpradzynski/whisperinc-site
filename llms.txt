@@ -1,0 +1,18 @@
+# WhisperInc
+
+WhisperInc turns speech into ready-to-use text with on-device models. Its product pages describe local processing, supported platforms, models, and privacy. The website is available in English and Polish.
+
+## Key pages
+
+- [Home](https://jakubpradzynski.pl/whisperinc-site/): Product overview and core benefits.
+- [Download](https://jakubpradzynski.pl/whisperinc-site/download/): Platform availability and setup guidance.
+- [Features](https://jakubpradzynski.pl/whisperinc-site/features/): Product capabilities and planned availability.
+- [Models](https://jakubpradzynski.pl/whisperinc-site/models/): On-device speech and text models, languages, and requirements.
+- [FAQ](https://jakubpradzynski.pl/whisperinc-site/faq/): Answers about use, privacy, models, and supported devices.
+- [At a glance](https://jakubpradzynski.pl/whisperinc-site/at-a-glance/): Concise product facts for readers and assistants.
+- [Privacy](https://jakubpradzynski.pl/whisperinc-site/privacy/): How audio, text, model downloads, and the website are handled.
+- [Changelog](https://jakubpradzynski.pl/whisperinc-site/changelog/): Release notes and product updates.
+- [Terms of Service](https://jakubpradzynski.pl/whisperinc-site/terms/): Terms of use for the apps and this website.
+- [Press kit](https://jakubpradzynski.pl/whisperinc-site/press/): Product descriptions, logos and media contact.
+- [Contact](https://jakubpradzynski.pl/whisperinc-site/contact/): How to reach WhisperInc by email for support, press and privacy questions.
+- [Support](https://jakubpradzynski.pl/whisperinc-site/support/): Setup help, permissions and troubleshooting.

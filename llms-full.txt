@@ -1,0 +1,228 @@
+# WhisperInc — full English reference
+
+## Home
+
+WhisperInc turns speech into ready-to-use text with on-device models. Record on Mac, choose how your words should read, and keep audio and text on your device.
+
+# Talk instead of typing.
+
+WhisperInc turns speech into ready-to-use text with on-device models. Record on Mac, choose how your words should read, and keep audio and text on your device.
+
+## The app
+
+WhisperInc for Mac is in development for macOS 26 and Apple silicon. The planned iPhone app targets iOS 26 and is not yet available. The Mac app starts from the menu bar or a global keyboard shortcut; the iPhone design centers on one recording button.
+
+## How it works
+
+Speak, let a local speech model transcribe your words, then copy the result. Optional rewrite modes shape a transcript into a message, email or voice-note script. Recordings and text versions live in local history.
+
+## Modes
+
+A mode is a reusable recipe for processing speech. The built-in Transcription mode keeps a transcript; rewrite modes can apply your replacement rules and use a prompt you choose. Examples include Text message, Email, Voice-note script and your own mode.
+
+## Your voice stays with you.
+
+Audio, transcripts and history stay on your device. No account is required, and the app works offline after model downloads. You choose whether to keep audio files. Model downloads use Hugging Face; the Mac app can check its update feed.
+
+## Models and languages
+
+WhisperInc offers local speech-to-text and text-to-text models. Whisper supports 99 languages, and Parakeet Ultra supports 25 European languages, including Polish. Qwen and Gemma rewriting models include Polish support. System models are available only for supported languages and devices.
+
+## Features
+
+Set personal replacements, keep editable text versions, search local history and view insights about recordings, words, modes and replacements. Sync, cloud models and prompt suggestions are planned for later and are not available in v1.
+
+## Features
+
+Record speech, shape it into ready-to-use text and keep every result private on your devices.
+
+WhisperInc turns a spoken thought into text you can use. Record in a native app, choose a mode for the job, and keep the result in your private history.
+
+## Speak once, get text ready for the task
+
+The built-in **Transcription** mode keeps the recognized words. Custom modes can optionally rewrite a transcript as a short message, a professional email, or a voice-note script. Each mode has its own instructions and can use the speech and text models available on your device.
+
+## Choose your models
+
+Pick a speech-to-text model and, when rewriting is enabled, a text-to-text model. The catalog includes open-weight models that run locally and Apple system models where supported. The app shows each model's size, speed, accuracy, supported languages, and device requirements.
+
+## Make transcripts sound like you
+
+Optional silence trimming removes pauses before processing. Personal replacements apply rules such as `whisper ink` → `WhisperInc` or removing a filler phrase. A mode can copy its result to the clipboard when processing finishes.
+
+## Find, replay and edit past recordings
+
+History keeps transcripts and generated results as separate versions. You can search past recordings, replay their audio when it was retained, and save an edit as another version without overwriting the original text. Insights summarize recording time, words, modes, replacements and edits.
+
+## A native workflow on each device
+
+On macOS, WhisperInc lives in the menu bar, supports global keyboard shortcuts, and shows a floating recording and processing indicator. In the direct Mac build, the paste-last-result shortcut can paste into another app when Accessibility permission is granted; otherwise, the text is copied for manual pasting.
+
+On iPhone, recording starts from a single-button home screen. App Shortcuts, Control Center and widgets provide quick entry points. The iOS app opens for recording; it does not record in the background in v1.
+
+## Private by design
+
+In v1, audio, transcripts and history stay on your device. There is no account or backend, and the app works offline after any chosen models are downloaded. You control how long recordings are kept and whether audio files are retained. The optional future cloud, sync and prompt-suggestion features are not part of v1.
+
+## Later, not in v1
+
+Accounts, cross-device sync, cloud models and AI prompt suggestions based on edits are planned for a later version. They are not active services in v1.
+
+## Models and languages
+
+Compare WhisperInc's local speech and text models, supported languages, download sizes and device requirements.
+
+WhisperInc uses on-device models for speech recognition and optional text rewriting. Downloadable model sizes and 1–5 ratings below are catalog estimates; actual storage use can vary. System models are provided by Apple and have no model download. Ratings are catalog comparisons, not a guarantee of results on every recording.
+
+## Speech-to-text
+
+These models turn a recording into a transcript. Whisper supports 99 languages; Parakeet Ultra supports 25 European languages including Polish; Parakeet v2 is English-only. Apple Speech supports 22 languages and does not support Polish.
+
+## Text rewriting
+
+Text models optionally turn a transcript into a message, email or other text using the instructions in a mode. Qwen and Gemma run locally through MLX. Apple Intelligence is a system model, requires Apple Intelligence to be available, and does not support Polish.
+
+## Which model should I choose?
+
+- For a good balance of speed and recognition across many languages, start with Whisper Large v3 Turbo.
+- For very fast recognition of Polish or another supported European language, try Parakeet Ultra.
+- For English-only recognition, Parakeet v2 is a very fast option.
+- For a smaller speech-model download, try Whisper Base or Small; Tiny is the smallest option.
+- For Polish rewriting, Qwen 3.5 2B or Gemma 4 are catalog options. Larger models need more memory and storage.
+- Apple system models need no model download, but availability depends on the language, OS and device.
+
+Models may be listed but unavailable on a device when the platform artifact, language support or minimum memory requirement is not met. macOS requires macOS 26 or later on Apple Silicon; iPhone requires iOS 26 or later. MLX text models do not run in the iOS Simulator.
+
+## Frequently asked questions
+
+### What is WhisperInc?
+
+WhisperInc is a native macOS and iOS app that turns speech into text using on-device models. The v1 apps are in development.
+
+### Does WhisperInc work offline?
+
+WhisperInc works offline after the models you choose have been downloaded. An internet connection is needed to download models and receive app updates.
+
+### How much does WhisperInc cost?
+
+WhisperInc v1 and its local models are free. There is no account or subscription required for local features.
+
+### Which languages does WhisperInc support?
+
+The app interface is available in English and Polish. Speech recognition and rewriting languages depend on the selected model; Whisper supports 99 languages, while Parakeet Ultra supports 25 European languages.
+
+### Can I transcribe Polish speech?
+
+Yes. Whisper models support Polish, and Parakeet Ultra includes Polish among its 25 European languages. Apple Speech does not support Polish.
+
+### Can WhisperInc rewrite text in Polish?
+
+Yes. Qwen 3.5 and Gemma 4 are local text-model options for Polish rewriting. Apple Intelligence does not support Polish.
+
+### Which devices can run WhisperInc?
+
+WhisperInc v1 targets Macs with Apple Silicon running macOS 26 or later and iPhones running iOS 26 or later. Individual models have additional memory and language requirements.
+
+### Does WhisperInc support Intel Macs?
+
+No. WhisperInc for Mac requires Apple Silicon and does not support Intel Macs.
+
+### How much storage do the models need?
+
+Model downloads range from 77 MB for Whisper Tiny to several gigabytes for larger models. Apple Speech and Apple Intelligence are system models and have no model download; see the model catalog for sizes.
+
+### Does WhisperInc send my recordings to a server?
+
+No. In v1, audio, transcripts and history stay on your device; WhisperInc has no account or backend. Model files are downloaded from Hugging Face when you choose to install them.
+
+### Where are my recordings and transcripts stored?
+
+WhisperInc stores recordings and text in the app's local data on your device. The app lets you choose how long to keep recordings and whether to keep audio files.
+
+### Can I delete my recordings and data?
+
+Yes. You can delete recordings from History and configure retention and audio-file storage in General settings. Uninstalling the app removes its local app data according to the operating system's app-removal behavior.
+
+### How do I paste a result into another Mac app?
+
+WhisperInc copies a result to the clipboard when the selected mode is set to copy. In the directly distributed Mac build, the Paste last result shortcut can send Command-V when Accessibility permission is granted; without permission, paste from the clipboard yourself.
+
+### Does WhisperInc record in the background on iPhone?
+
+No. In v1, iPhone recording opens the WhisperInc app and starts there; background recording is not included.
+
+### Can I use the iPhone Action Button, Control Center or widgets?
+
+WhisperInc plans quick-start entry points through App Shortcuts, Control Center and widgets on supported iPhones. These entry points open the app to start recording; they do not provide background recording in v1.
+
+### Are cloud models, sync or accounts available?
+
+No. Cloud models, accounts, cross-device sync and prompt suggestions are planned for later and are not available in v1.
+
+## Frequently asked questions
+
+Clear answers about WhisperInc, its platforms, model choices, privacy and offline use.
+
+Find standalone answers about WhisperInc, app availability, model choices, privacy and offline use.
+
+## WhisperInc at a glance
+
+A concise, quotable fact sheet about WhisperInc, its platforms, privacy and on-device models.
+
+## WhisperInc facts
+
+<ul class="fact-list">
+  <li><strong>What</strong>WhisperInc turns speech into ready-to-use text with local speech and text models.</li>
+  <li><strong>Platforms</strong>WhisperInc is a native app for macOS and iOS.</li>
+  <li><strong>Minimum OS</strong>macOS 26 or later on Apple Silicon; iOS 26 or later.</li>
+  <li><strong>Price</strong>The v1 apps and local models are free; no account is required.</li>
+  <li><strong>Languages</strong>The app interface is in English and Polish. Speech and text languages depend on the selected model.</li>
+  <li><strong>Polish</strong>Whisper and Parakeet Ultra support Polish transcription; Qwen 3.5 and Gemma 4 provide Polish rewriting options. Apple Speech and Apple Intelligence do not support Polish.</li>
+  <li><strong>Privacy</strong>Audio, transcripts and history stay on the user's device in v1. The app has no account or backend.</li>
+  <li><strong>Offline use</strong>The app works offline after downloadable models have been installed. Downloading models and app updates requires an internet connection.</li>
+  <li><strong>Models</strong>Local speech models include Whisper, Parakeet and Apple Speech. Local text models include Qwen 3.5, Gemma 4 and Apple Intelligence where supported.</li>
+  <li><strong>Website</strong>The product website uses no analytics, cookies or third-party requests.</li>
+</ul>
+
+<p class="last-updated">Last updated: 28 September 2026.</p>
+
+## Privacy Policy
+
+How WhisperInc protects your privacy: recordings and text stay on your device, no account, no ads and no analytics. What changes once Pro launches.
+
+## Who is responsible for your data
+
+The data controller is WI_PLACEHOLDER_LEGAL_ENTITY, WI_PLACEHOLDER_LEGAL_ADDRESS. For privacy questions, write to **[WI_PLACEHOLDER_PRIVACY_EMAIL](mailto:WI_PLACEHOLDER_PRIVACY_EMAIL)**.
+
+## Data in the app
+
+WhisperInc for Mac and iPhone turns speech into text with models that run on your device. Recordings, transcripts, results and your edits, modes, replacements, history and insights are stored only on your device. They are not sent to us or to any server, and we have no access to them. No account is required.
+
+You decide how long recordings are kept and whether audio is kept at all. You can delete single recordings or all stored audio at any time. Text you copy goes to the system clipboard; text you share goes to the app you choose in the share sheet.
+
+The apps connect to the internet only for downloads and updates, never to process your speech:
+
+- **Model downloads.** When you choose a model that is not built into the system, its files are downloaded from Hugging Face, which handles the request under its own privacy policy.
+- **Updates.** WhisperInc for Mac checks the update feed on this website when update checking is turned on. WhisperInc for iPhone is updated through the App Store.
+
+The apps contain no ads, no analytics and no tracking. If you have chosen in your Apple device settings to share analytics with app developers, Apple may pass anonymous crash reports of the App Store version on to us.
+
+## Account and sync (Pro)
+
+There is no account and no sync today. When WhisperInc Pro launches, signing in and sync will be optional. Sync will transfer your modes, replacements and — only if you enable it — the text of your history. **Audio recordings will always stay on your device.** We will update this policy with the details before these features become available.
+
+## Cloud models (Pro)
+
+Today every model runs on your device. When Pro launches, you will be able to turn on a cloud model for a chosen mode; only recordings from that mode will then be sent for processing. Before that happens, this policy will say who processes them and how long they are kept. We will never use your recordings to train models.
+
+## Prompt suggestions (Pro)
+
+Prompt suggestions are not available yet. When Pro launches, WhisperInc will be able to suggest better instructions for a mode by comparing the AI result with your edit. The feature will be optional, and you will be able to turn it off in Settings.
+
+## This website
+
+This is a static website. It uses no cookies, no analytics and no third-party page resources, and it has no account or form for submitting personal information. The site is hosted on GitHub Pages; GitHub processes technical data needed to deliver pages, such as your IP address, under its own privacy statement. If you follow an external link or email us, that destination handles your visit or message under its own practices.
+
+## Your rights
+
+You have the right to access, correct, delete and export your personal data, to object to its processing and to lodge a complaint with a data protection authority (in Poland: the President of the Personal Data Protection Office, UODO). Because there is no account, we hold no personal data about you unless you email us. Data in the app stays on your device, and you can delete it there at any time.
